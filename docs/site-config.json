@@ -1,0 +1,89 @@
+{
+  "name": "Fluix UI",
+  "description": "Advanced AI components for modern web applications",
+  "url": "https://fluix-ui.dev",
+  "navigation": {
+    "main": [
+      {
+        "title": "Documentation",
+        "href": "/docs"
+      },
+      {
+        "title": "Components",
+        "href": "/components"
+      },
+      {
+        "title": "Examples",
+        "href": "/examples"
+      },
+      {
+        "title": "Guides",
+        "href": "/guides"
+      }
+    ],
+    "sidebar": {
+      "Getting Started": [
+        {
+          "title": "Installation",
+          "href": "/docs/installation"
+        },
+        {
+          "title": "CLI Usage",
+          "href": "/docs/cli"
+        },
+        {
+          "title": "Configuration",
+          "href": "/docs/configuration"
+        }
+      ],
+      "Components": {
+        "Transparency": [
+          {
+            "title": "Confidence Score",
+            "href": "/components/confidence-score"
+          },
+          {
+            "title": "Reasoning Steps",
+            "href": "/components/reasoning-steps"
+          },
+          {
+            "title": "Source Attribution",
+            "href": "/components/source-attribution"
+          }
+        ],
+        "Chat": [
+          {
+            "title": "Multi-Agent Chat",
+            "href": "/components/multi-agent-chat"
+          },
+          {
+            "title": "Voice Interface",
+            "href": "/components/voice-interface"
+          },
+          {
+            "title": "Thread Branching",
+            "href": "/components/thread-branching"
+          }
+        ],
+        "Input": [
+          {
+            "title": "Prompt Builder",
+            "href": "/components/prompt-builder"
+          },
+          {
+            "title": "Multimodal Upload",
+            "href": "/components/multimodal-upload"
+          },
+          {
+            "title": "Model Selector",
+            "href": "/components/model-selector"
+          }
+        ]
+      }
+    }
+  },
+  "theme": {
+    "primaryColor": "blue",
+    "darkMode": true
+  }
+}

@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "docs:dev": "next dev --turbopack",
+    "docs:build": "next build --turbopack",
+    "docs:preview": "next start"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
