@@ -4,7 +4,7 @@ Advanced AI-first component registry for React applications built on top of shad
 
 ## Overview
 
-Fluix UI provides a comprehensive set of AI-specific components that go beyond traditional UI libraries. Our components are designed specifically for AI applications, offering features like transparency indicators, confidence scores, reasoning displays, and advanced conversation interfaces.
+Fluix UI provides unique AI-specific components that complement existing libraries like AI SDK UI and shadcn/ui. While AI SDK UI covers basic chat and completions, Fluix UI focuses on advanced AI interaction patterns, transparency features, enterprise governance, and specialized workflows that are currently missing from the ecosystem.
 
 Built following the shadcn/ui pattern, Fluix UI components are:
 - **Copy-paste friendly** - Own your code, no external dependencies
@@ -64,49 +64,44 @@ Open [http://localhost:3000](http://localhost:3000) to see the component showcas
 └── app/                      # Next.js app directory
 ```
 
-## Component Categories
+## Top 10 Unique Components
 
-### 🔍 Transparency Components
-Build trust with confidence scores, reasoning steps, and source attribution.
-- `ConfidenceScore` - Visual confidence indicators with thresholds
-- `ReasoningSteps` - Step-by-step AI reasoning display
-- `SourceAttribution` - AI response source citations
-- `BiasIndicator` - Bias detection and mitigation alerts
+### 🎯 **ConfidenceScore** - AI Trust Indicator
+Visual confidence levels with thresholds and color coding - missing from existing AI UI libraries.
 
-### 💬 Advanced Chat
-Multi-agent conversations, voice interfaces, and thread branching beyond basic chat.
-- `MultiAgentChat` - Multi-agent conversation management
-- `VoiceInterface` - Voice input/output with visualization
-- `ThreadBranching` - Conversation thread management
-- `ConversationMemory` - Context and memory visualization
+### 🧠 **ReasoningSteps** - AI Transparency  
+Step-by-step AI reasoning display for explainable AI - unique transparency feature.
 
-### ⌨️ AI Input
-Specialized input components for AI interactions with context awareness.
-- `PromptBuilder` - Visual prompt construction with templates
-- `MultimodalUpload` - AI-aware file upload and processing
-- `ModelSelector` - AI model selection and configuration
-- `ParameterTuner` - AI parameter adjustment controls
+### 📚 **SourceAttribution** - Citation Management
+AI response citations with source credibility indicators - critical for AI trust.
 
-### 🔄 Workflow
-AI workflow and automation components for complex processes.
-- `PipelineVisualizer` - AI workflow visualization
-- `BatchProcessor` - Bulk operation management
-- `AgentOrchestrator` - Multi-agent coordination
-- `DecisionTree` - Conditional logic builders
+### ⚡ **PromptBuilder** - Visual Prompt Engineering
+Drag-and-drop prompt construction with templates and variables - no existing equivalent.
 
-### 🏢 Enterprise
-Governance, monitoring, compliance, and cost tracking for enterprise AI.
-- `AuditTrail` - AI operation audit logging
-- `CostTracker` - AI usage cost monitoring
-- `ComplianceMonitor` - Regulatory compliance tracking
-- `SafetyFilter` - Content safety and bias detection
+### 👥 **MultiAgentChat** - Agent Coordination
+Multi-agent conversations with role switching - extends beyond AI SDK's single-agent chat.
 
-### 📊 Analytics
-Performance monitoring and analytics components for AI systems.
-- `PerformanceMetrics` - AI performance dashboards
-- `ConversationAnalytics` - Conversation insights and trends
-- `FeedbackCollector` - User feedback aggregation
-- `DebugInspector` - AI request/response debugging
+### 🤖 **ModelSelector** - AI Model Management  
+Model selection with capability descriptions and parameter tuning - missing from ecosystem.
+
+### 📋 **AuditTrail** - Enterprise Governance
+AI operation audit logging for compliance - enterprise feature gap.
+
+### 💰 **CostTracker** - Usage Monitoring
+AI cost tracking with token usage and budget alerts - unique enterprise need.
+
+### 🎤 **VoiceInterface** - Audio AI
+Voice input/output with waveform visualization - missing from current AI UI.
+
+### 🔄 **BatchProcessor** - Bulk Operations
+Queue management for bulk AI operations - workflow automation gap.
+
+## Why Fluix UI?
+
+- **Complements existing libraries** - Works alongside AI SDK UI and shadcn/ui
+- **Fills ecosystem gaps** - Focuses on missing transparency, governance, and advanced patterns
+- **Enterprise-ready** - Includes compliance, cost tracking, and audit features
+- **Unique value** - Components not available in other AI UI libraries
 
 ## Documentation
 
