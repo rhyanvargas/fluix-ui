@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This feature involves creating an AI-first component registry that extends beyond the basic chat components provided by shadcn/ai. While shadcn/ai covers fundamental chat functionality, this registry will focus on advanced AI interaction patterns, transparency components, specialized input methods, and enterprise-grade AI features that are currently missing from the ecosystem. The registry will follow the shadcn pattern of CLI installation and copy-paste components.
+This feature involves creating an AI-first component registry that complements existing AI UI libraries (AI SDK UI, shadcn/ui) by focusing on unique, advanced AI interaction patterns that are currently missing from the ecosystem. While AI SDK UI covers basic chatbots, completions, and streaming, and shadcn/ui provides general UI primitives, this registry will focus on AI transparency, enterprise governance, specialized AI workflows, and advanced interaction patterns. The registry will follow the shadcn pattern of CLI installation and copy-paste components.
 
 ## Requirements
 
@@ -15,7 +15,7 @@ This feature involves creating an AI-first component registry that extends beyon
 1. WHEN a developer runs `npx ai-ui add [component]` THEN the system SHALL install the component files directly into their project
 2. WHEN a component is added THEN the system SHALL include TypeScript definitions and maintain shadcn/ui consistency
 3. WHEN components are installed THEN the system SHALL automatically handle dependencies and imports
-4. WHEN viewing the registry THEN the system SHALL provide at least 10 core AI-specific components
+4. WHEN viewing the registry THEN the system SHALL provide at least 10 unique AI-specific components not covered by existing libraries
 
 ### Requirement 2
 
