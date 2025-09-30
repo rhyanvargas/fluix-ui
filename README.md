@@ -1,6 +1,8 @@
 # Fluix UI
 
 Advanced AI-first component registry for React applications built on top of shadcn/ui.
+<img width="1497" height="609" alt="image" src="https://github.com/user-attachments/assets/0f071643-7f37-4109-9ddd-4ef5d33d9225" />
+
 
 ## Overview
 
